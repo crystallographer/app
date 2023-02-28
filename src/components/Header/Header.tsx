@@ -13,7 +13,7 @@ export function Header() {
             variant="dark"
         >
             <Container>
-                <LinkContainer to="/albums">
+                <LinkContainer to="/">
                     <Navbar.Brand>
                         <img
                             alt="App logo"
