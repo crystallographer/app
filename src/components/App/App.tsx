@@ -1,6 +1,7 @@
 import { ThemeProvider } from "react-bootstrap";
+import { RouterProvider } from "react-router";
 
-import { Header } from "../Header/Header";
+import { router } from "../../router/router";
 
 const BREAKPOINTS = ["xxxl", "xxl", "xl", "lg", "md", "sm", "xs", "xxs"];
 const MIN_BREAKPOINT = "xxs";
@@ -8,7 +9,7 @@ const MIN_BREAKPOINT = "xxs";
 function App() {
     return (
         <ThemeProvider breakpoints={BREAKPOINTS} minBreakpoint={MIN_BREAKPOINT}>
-            <Header />
+            <RouterProvider router={router} />
         </ThemeProvider>
     );
 }
