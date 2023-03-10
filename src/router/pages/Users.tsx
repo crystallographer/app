@@ -12,8 +12,8 @@ import { Header } from "../../components/Header/Header";
 
 export function Users() {
     return (
-        <Container>
-            <Row>
+        <Container fluid>
+            <Row className="mb-3">
                 <Col>
                     <Header />
                 </Col>
@@ -22,11 +22,13 @@ export function Users() {
                 <Col md="auto">
                     <InputGroup>
                         <Form.Control
-                            placeholder="User"
+                            aria-describedby="search-user"
                             aria-label="User"
-                            aria-describedby="user"
+                            placeholder="User"
                         />
-                        <Button variant="outline-primary">Search</Button>
+                        <Button variant="outline-primary" id="search-user">
+                            Search
+                        </Button>
                     </InputGroup>
                 </Col>
             </Row>

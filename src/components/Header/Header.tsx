@@ -5,13 +5,7 @@ import logo from "../../../assets/images/logo.png";
 
 export function Header() {
     return (
-        <Navbar
-            bg="primary"
-            collapseOnSelect
-            expand="lg"
-            fixed="top"
-            variant="dark"
-        >
+        <Navbar bg="primary" collapseOnSelect expand="lg" variant="dark">
             <Container>
                 <LinkContainer to="/">
                     <Navbar.Brand>
