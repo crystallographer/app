@@ -1,9 +1,9 @@
 import { createBrowserRouter, RouteObject } from "react-router-dom";
 
-import { Home } from "./pages/Home";
-import { Photos } from "./pages/Photos";
-import { Posts } from "./pages/Posts";
-import { Users } from "./pages/Users";
+import { Home } from "../pages/Home";
+import { Photos } from "../pages/Photos";
+import { Posts } from "../pages/Posts";
+import { Users } from "../pages/Users";
 
 const ROUTES: RouteObject[] = [
     {

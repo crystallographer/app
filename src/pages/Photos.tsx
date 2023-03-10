@@ -1,23 +1,10 @@
-import {
-    Button,
-    Col,
-    Container,
-    Form,
-    InputGroup,
-    ListGroup,
-    Row
-} from "react-bootstrap";
+import { Button, Col, Form, InputGroup, ListGroup, Row } from "react-bootstrap";
 
-import { Header } from "../../components/Header/Header";
+import { Main } from "../layouts/Main";
 
 export function Photos() {
     return (
-        <Container fluid>
-            <Row className="mb-3">
-                <Col>
-                    <Header />
-                </Col>
-            </Row>
+        <Main>
             <Row className="justify-content-md-center">
                 <Col md="auto">
                     <InputGroup>
@@ -37,6 +24,6 @@ export function Photos() {
                     <ListGroup />
                 </Col>
             </Row>
-        </Container>
+        </Main>
     );
 }
