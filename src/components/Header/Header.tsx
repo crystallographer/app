@@ -21,7 +21,7 @@ export function Header() {
                 </LinkContainer>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
-                    <Nav className="me-auto" activeKey="/photos">
+                    <Nav className="me-auto">
                         <LinkContainer to="/photos">
                             <Nav.Link>Photos</Nav.Link>
                         </LinkContainer>
