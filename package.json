@@ -6,7 +6,7 @@
     },
     "bugs": {
         "email": "human@mailfence.com",
-        "url": "https://github.com/crystallographer/reactify/issues"
+        "url": "https://github.com/crystallographer/app/issues"
     },
     "cpu": [
         "arm64",
@@ -95,7 +95,7 @@
         "node": ">=16.13.0"
     },
     "engineStrict": true,
-    "homepage": "https://github.com/crystallographer/reactify",
+    "homepage": "https://github.com/crystallographer/app",
     "keywords": [
         "parcel",
         "react",
@@ -105,7 +105,7 @@
         "typescript"
     ],
     "license": "GPLv3",
-    "name": "reactify",
+    "name": "app",
     "os": [
         "darwin",
         "linux",
@@ -114,7 +114,7 @@
     "private": true,
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/crystallographer/reactify.git"
+        "url": "git+https://github.com/crystallographer/app.git"
     },
     "scripts": {
         "build": "parcel build src/index.html --no-source-maps",
