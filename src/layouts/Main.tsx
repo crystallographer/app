@@ -1,7 +1,7 @@
 import { ReactNode } from "react";
 import { Col, Container, Row } from "react-bootstrap";
 
-import { Header } from "../components/Header/Header";
+import { Header } from "../components/Header";
 
 type Properties = {
     children: ReactNode;
